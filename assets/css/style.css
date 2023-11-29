@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: gold;
+  color: #cc9900;
   text-decoration: none;
 }
 
@@ -124,7 +124,7 @@ a:hover {
 }
 
 .color-b {
-  color: gold;
+  color: #cc9900;
 }
 
 .color-d {
@@ -162,7 +162,7 @@ a:hover {
   bottom: -1px;
   width: 100%;
   height: 2px;
-  background-color: gold;
+  background-color: #cc9900;
   z-index: 2;
 }
 
@@ -197,6 +197,13 @@ a:hover {
   }
 }
 
+.mainlog {
+  width: 70px;
+  height: auto;
+  margin-right: 1vw;
+  margin-left: -3vw;
+}
+
 .list-a li:before {
   content: "";
   width: 10px;
@@ -222,7 +229,7 @@ a:hover {
 .pagination-a .pagination .page-link:hover,
 .pagination-a .pagination .page-link:active,
 .pagination-a .pagination .page-link:focus {
-  background-color: gold;
+  background-color: #cc9900;
 }
 
 .pagination-a .pagination .page-link span {
@@ -249,12 +256,12 @@ a:hover {
 }
 
 .pagination-a .pagination .page-item.active .page-link {
-  background-color: gold;
+  background-color: #cc9900;
 }
 
 .a {
   text-decoration: none;
-  color: gold;
+  color: #cc9900;
   font-size: 1.3rem;
 }
 
@@ -361,7 +368,7 @@ a:hover {
   position: absolute;
   width: 70px;
   height: 4px;
-  background-color: gold;
+  background-color: #cc9900;
   bottom: 20px;
   left: 0;
 }
@@ -418,7 +425,7 @@ a:hover {
 }
 
 .carousel-pagination .swiper-pagination-bullet-active {
-  background-color: gold;
+  background-color: #cc9900;
   width: 36px;
 }
 
@@ -448,7 +455,7 @@ a:hover {
   display: inline-block;
   transition: all 0.6s ease-in-out;
   color: black;
-  background-color: gold;
+  background-color: #cc9900;
   opacity: 0.9;
 }
 
@@ -486,7 +493,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: gold;
+  background: #cc9900;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -527,7 +534,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid gold;
+  border-top: 6px solid #cc9900;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -565,12 +572,12 @@ a:hover {
 }
 
 .btn.btn-a:hover {
-  background-color: gold;
+  background-color: #cc9900;
   color: #000000;
 }
 
 .btn.btn-b {
-  background-color: gold;
+  background-color: #cc9900;
   color: #000000;
 }
 
@@ -580,7 +587,7 @@ a:hover {
 }
 
 .btn.btn-b-n {
-  background-color: gold;
+  background-color: #cc9900;
   color: black;
   border-radius: 0;
 }
@@ -667,7 +674,7 @@ a:hover {
   width: 100%;
   height: 2px;
   z-index: 0;
-  background-color: gold;
+  background-color: #cc9900;
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.2s ease-out, opacity 0.2s ease-out 0.3s;
@@ -696,7 +703,7 @@ a:hover {
 }
 
 .navbar-default.navbar-trans .nav-link:before {
-  background-color: gold;
+  background-color: #cc9900;
 }
 
 .navbar-default.navbar-trans .nav-link:hover {
@@ -721,7 +728,7 @@ a:hover {
 }
 
 .navbar-default.navbar-reduce .nav-link:before {
-  background-color: gold;
+  background-color: #cc9900;
 }
 
 .navbar-default.navbar-reduce .nav-link:hover {
@@ -741,7 +748,7 @@ a:hover {
 
 .navbar-default .dropdown .dropdown-menu {
   border-top: 0;
-  border-left: 4px solid gold;
+  border-left: 4px solid #cc9900;
   border-right: 0;
   border-bottom: 0;
   transform: translate3d(0px, 40px, 0px);
@@ -756,7 +763,7 @@ a:hover {
 
 @media (min-width: 768px) {
   .navbar-default .dropdown .dropdown-menu {
-    border-top: 4px solid gold;
+    border-top: 4px solid #cc9900;
     border-left: 0;
     display: block;
     position: absolute;
@@ -773,13 +780,13 @@ a:hover {
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item:hover {
   background-color: #ffffff;
-  color: gold;
+  color: #cc9900;
   transition: all 500ms ease;
 }
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item.active {
   background-color: #ffffff;
-  color: gold;
+  color: #cc9900;
 }
 
 .navbar-default .dropdown:hover .dropdown-menu {
@@ -848,7 +855,7 @@ a:hover {
   right: 0;
   width: 100%;
   z-index: 1040;
-  background-color: black;
+  background-color: white;
   transform: translateX(100%);
   transition: all 0.6s ease;
 }
@@ -979,7 +986,7 @@ a:hover {
 }
 
 .intro .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: gold;
+  background-color: #cc9900;
   width: 36px;
 }
 
@@ -1013,7 +1020,7 @@ a:hover {
 .intro .intro-body .price-a {
   color: #ffffff;
   padding: 1rem 1.5rem;
-  border: 2px solid gold;
+  border: 2px solid #cc9900;
   border-radius: 50px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -1121,7 +1128,7 @@ a:hover {
 }
 
 .intro-single .title-single-box {
-  border-left: 3px solid gold;
+  border-left: 3px solid #cc9900;
 }
 
 .intro-single .title-single-box .title-single {
@@ -1344,7 +1351,7 @@ a:hover {
 .price-a {
   color: #ffffff;
   padding: 0.6rem 0.8rem;
-  border: 2px solid gold;
+  border: 2px solid #cc9900;
   border-radius: 50px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -1354,7 +1361,7 @@ a:hover {
   width: 100%;
   position: absolute;
   z-index: 2;
-  background-color: gold;
+  background-color: #cc9900;
 }
 
 .card-info {
@@ -1496,7 +1503,7 @@ a:hover {
 
 .card-header-b .category-b {
   font-size: 0.9rem;
-  background-color: gold;
+  background-color: #cc9900;
   padding: 0.3rem 0.7rem;
   color: #313131;
   letter-spacing: 0.03em;
@@ -1570,7 +1577,7 @@ a:hover {
 
 .post-content .blockquote {
   padding: 1rem 3rem 1.7rem 3rem;
-  border-left: 3px solid gold;
+  border-left: 3px solid #cc9900;
   color: #000000;
 }
 
@@ -1673,7 +1680,7 @@ a:hover {
 
 .card-box-ico {
   margin: 1rem 5rem 1rem 2.5rem;
-  border: 3px dashed gold;
+  border: 3px dashed #cc9900;
   padding: .5rem .5rem .5rem .5rem;
 }
 
@@ -1803,7 +1810,7 @@ a:hover {
 }
 
 .card-box-d:hover .card-overlay-hover {
-  background-color: gold;
+  background-color: #cc9900;
   opacity: 0.9;
 }
 
@@ -1857,7 +1864,7 @@ a:hover {
 }
 
 .sinse-box {
-  background-color: gold;
+  background-color: #cc9900;
   padding: 1rem 2rem;
   position: absolute;
   left: 15px;
@@ -1956,7 +1963,7 @@ a:hover {
 
 .testimonial-ico i {
   font-size: 48px;
-  color: gold;
+  color: #cc9900;
 }
 
 .testimonial-text {
@@ -1994,7 +2001,7 @@ a:hover {
 # Contact Section
 --------------------------------------------------------------*/
 .form-as #sendmessage {
-  color: gold;
+  color: #cc9900;
   border: 1px solid #26a356;
   display: none;
   text-align: center;
@@ -2048,7 +2055,7 @@ a:hover {
 
 .form-as .form-control:focus {
   box-shadow: none;
-  border-color: gold;
+  border-color: #cc9900;
 }
 
 .php-email-form .error-message {
@@ -2109,7 +2116,7 @@ a:hover {
 
 .php-email-form .form-control:focus {
   box-shadow: none;
-  border-color: gold;
+  border-color: #cc9900;
 }
 
 @keyframes animate-loading {
@@ -2138,7 +2145,7 @@ a:hover {
 .section-footer .item-list-a i {
   font-size: 18px;
   padding-right: 4px;
-  color: gold;
+  color: #cc9900;
 }
 
 .section-footer .widget-a .w-title-a {
