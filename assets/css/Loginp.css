@@ -1,0 +1,39 @@
+/* FILEPATH: /E:/Capstone/Website/Homebase-Capstone.github.io/assets/css/Loginp.css */
+
+/* Reset default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+h1 {
+    position: absolute;
+    left: 45%;
+    font-size: 1.5em;
+    color: #000;
+}
+form {
+    width: 400px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    margin: 55px auto 30px;
+}
+#hbimg{
+    width: 5%;
+    height: 8%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;;
+}
+#signup{
+    position: absolute;
+    top: 58.8%;
+    left: 55%;
+    margin: 55px auto 30px;
+}
