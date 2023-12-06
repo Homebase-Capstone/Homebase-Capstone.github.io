@@ -30,7 +30,11 @@ a {
 }
 
 a:hover {
+<<<<<<< Updated upstream
   color: #cc9900;
+=======
+  color: gold;
+>>>>>>> Stashed changes
   text-decoration: none;
 }
 
@@ -124,7 +128,11 @@ a:hover {
 }
 
 .color-b {
+<<<<<<< Updated upstream
   color: #cc9900;
+=======
+  color: gold;
+>>>>>>> Stashed changes
 }
 
 .color-d {
@@ -162,7 +170,11 @@ a:hover {
   bottom: -1px;
   width: 100%;
   height: 2px;
+<<<<<<< Updated upstream
   background-color: #cc9900;
+=======
+  background-color: gold;
+>>>>>>> Stashed changes
   z-index: 2;
 }
 
@@ -229,7 +241,11 @@ a:hover {
 .pagination-a .pagination .page-link:hover,
 .pagination-a .pagination .page-link:active,
 .pagination-a .pagination .page-link:focus {
+<<<<<<< Updated upstream
   background-color: #cc9900;
+=======
+  background-color: gold;
+>>>>>>> Stashed changes
 }
 
 .pagination-a .pagination .page-link span {
@@ -256,12 +272,20 @@ a:hover {
 }
 
 .pagination-a .pagination .page-item.active .page-link {
+<<<<<<< Updated upstream
   background-color: #cc9900;
+=======
+  background-color: gold;
+>>>>>>> Stashed changes
 }
 
 .a {
   text-decoration: none;
+<<<<<<< Updated upstream
   color: #cc9900;
+=======
+  color: gold;
+>>>>>>> Stashed changes
   font-size: 1.3rem;
 }
 
@@ -368,7 +392,11 @@ a:hover {
   position: absolute;
   width: 70px;
   height: 4px;
+<<<<<<< Updated upstream
   background-color: #cc9900;
+=======
+  background-color: gold;
+>>>>>>> Stashed changes
   bottom: 20px;
   left: 0;
 }
@@ -425,7 +453,11 @@ a:hover {
 }
 
 .carousel-pagination .swiper-pagination-bullet-active {
+<<<<<<< Updated upstream
   background-color: #cc9900;
+=======
+  background-color: gold;
+>>>>>>> Stashed changes
   width: 36px;
 }
 
@@ -455,7 +487,11 @@ a:hover {
   display: inline-block;
   transition: all 0.6s ease-in-out;
   color: black;
+<<<<<<< Updated upstream
   background-color: #cc9900;
+=======
+  background-color: gold;
+>>>>>>> Stashed changes
   opacity: 0.9;
 }
 
@@ -493,7 +529,11 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
+<<<<<<< Updated upstream
   background: #cc9900;
+=======
+  background: gold;
+>>>>>>> Stashed changes
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -534,7 +574,11 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
+<<<<<<< Updated upstream
   border-top: 6px solid #cc9900;
+=======
+  border-top: 6px solid gold;
+>>>>>>> Stashed changes
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -572,12 +616,20 @@ a:hover {
 }
 
 .btn.btn-a:hover {
+<<<<<<< Updated upstream
   background-color: #cc9900;
+=======
+  background-color: gold;
+>>>>>>> Stashed changes
   color: #000000;
 }
 
 .btn.btn-b {
+<<<<<<< Updated upstream
   background-color: #cc9900;
+=======
+  background-color: gold;
+>>>>>>> Stashed changes
   color: #000000;
 }
 
@@ -587,7 +639,11 @@ a:hover {
 }
 
 .btn.btn-b-n {
+<<<<<<< Updated upstream
   background-color: #cc9900;
+=======
+  background-color: gold;
+>>>>>>> Stashed changes
   color: black;
   border-radius: 0;
 }
@@ -623,7 +679,7 @@ a:hover {
 }
 
 .navbar-default .nav-search {
-  color: #000000;
+  color: #ffffff;
   font-size: 1.5rem;
 }
 
@@ -674,7 +730,11 @@ a:hover {
   width: 100%;
   height: 2px;
   z-index: 0;
+<<<<<<< Updated upstream
   background-color: #cc9900;
+=======
+  background-color: gold;
+>>>>>>> Stashed changes
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.2s ease-out, opacity 0.2s ease-out 0.3s;
@@ -703,7 +763,11 @@ a:hover {
 }
 
 .navbar-default.navbar-trans .nav-link:before {
+<<<<<<< Updated upstream
   background-color: #cc9900;
+=======
+  background-color: gold;
+>>>>>>> Stashed changes
 }
 
 .navbar-default.navbar-trans .nav-link:hover {
@@ -728,7 +792,11 @@ a:hover {
 }
 
 .navbar-default.navbar-reduce .nav-link:before {
+<<<<<<< Updated upstream
   background-color: #cc9900;
+=======
+  background-color: gold;
+>>>>>>> Stashed changes
 }
 
 .navbar-default.navbar-reduce .nav-link:hover {
@@ -748,7 +816,11 @@ a:hover {
 
 .navbar-default .dropdown .dropdown-menu {
   border-top: 0;
+<<<<<<< Updated upstream
   border-left: 4px solid #cc9900;
+=======
+  border-left: 4px solid gold;
+>>>>>>> Stashed changes
   border-right: 0;
   border-bottom: 0;
   transform: translate3d(0px, 40px, 0px);
@@ -763,7 +835,11 @@ a:hover {
 
 @media (min-width: 768px) {
   .navbar-default .dropdown .dropdown-menu {
+<<<<<<< Updated upstream
     border-top: 4px solid #cc9900;
+=======
+    border-top: 4px solid gold;
+>>>>>>> Stashed changes
     border-left: 0;
     display: block;
     position: absolute;
@@ -780,13 +856,21 @@ a:hover {
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item:hover {
   background-color: #ffffff;
+<<<<<<< Updated upstream
   color: #cc9900;
+=======
+  color: gold;
+>>>>>>> Stashed changes
   transition: all 500ms ease;
 }
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item.active {
   background-color: #ffffff;
+<<<<<<< Updated upstream
   color: #cc9900;
+=======
+  color: gold;
+>>>>>>> Stashed changes
 }
 
 .navbar-default .dropdown:hover .dropdown-menu {
@@ -855,7 +939,11 @@ a:hover {
   right: 0;
   width: 100%;
   z-index: 1040;
+<<<<<<< Updated upstream
   background-color: white;
+=======
+  background-color: black;
+>>>>>>> Stashed changes
   transform: translateX(100%);
   transition: all 0.6s ease;
 }
@@ -986,7 +1074,11 @@ a:hover {
 }
 
 .intro .swiper-pagination .swiper-pagination-bullet-active {
+<<<<<<< Updated upstream
   background-color: #cc9900;
+=======
+  background-color: gold;
+>>>>>>> Stashed changes
   width: 36px;
 }
 
@@ -1020,7 +1112,11 @@ a:hover {
 .intro .intro-body .price-a {
   color: #ffffff;
   padding: 1rem 1.5rem;
+<<<<<<< Updated upstream
   border: 2px solid #cc9900;
+=======
+  border: 2px solid gold;
+>>>>>>> Stashed changes
   border-radius: 50px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -1128,7 +1224,11 @@ a:hover {
 }
 
 .intro-single .title-single-box {
+<<<<<<< Updated upstream
   border-left: 3px solid #cc9900;
+=======
+  border-left: 3px solid gold;
+>>>>>>> Stashed changes
 }
 
 .intro-single .title-single-box .title-single {
@@ -1351,7 +1451,11 @@ a:hover {
 .price-a {
   color: #ffffff;
   padding: 0.6rem 0.8rem;
+<<<<<<< Updated upstream
   border: 2px solid #cc9900;
+=======
+  border: 2px solid gold;
+>>>>>>> Stashed changes
   border-radius: 50px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -1361,7 +1465,11 @@ a:hover {
   width: 100%;
   position: absolute;
   z-index: 2;
+<<<<<<< Updated upstream
   background-color: #cc9900;
+=======
+  background-color: gold;
+>>>>>>> Stashed changes
 }
 
 .card-info {
@@ -1503,7 +1611,11 @@ a:hover {
 
 .card-header-b .category-b {
   font-size: 0.9rem;
+<<<<<<< Updated upstream
   background-color: #cc9900;
+=======
+  background-color: gold;
+>>>>>>> Stashed changes
   padding: 0.3rem 0.7rem;
   color: #313131;
   letter-spacing: 0.03em;
@@ -1577,7 +1689,11 @@ a:hover {
 
 .post-content .blockquote {
   padding: 1rem 3rem 1.7rem 3rem;
+<<<<<<< Updated upstream
   border-left: 3px solid #cc9900;
+=======
+  border-left: 3px solid gold;
+>>>>>>> Stashed changes
   color: #000000;
 }
 
@@ -1680,7 +1796,11 @@ a:hover {
 
 .card-box-ico {
   margin: 1rem 5rem 1rem 2.5rem;
+<<<<<<< Updated upstream
   border: 3px dashed #cc9900;
+=======
+  border: 3px dashed gold;
+>>>>>>> Stashed changes
   padding: .5rem .5rem .5rem .5rem;
 }
 
@@ -1810,7 +1930,11 @@ a:hover {
 }
 
 .card-box-d:hover .card-overlay-hover {
+<<<<<<< Updated upstream
   background-color: #cc9900;
+=======
+  background-color: gold;
+>>>>>>> Stashed changes
   opacity: 0.9;
 }
 
@@ -1864,7 +1988,11 @@ a:hover {
 }
 
 .sinse-box {
+<<<<<<< Updated upstream
   background-color: #cc9900;
+=======
+  background-color: gold;
+>>>>>>> Stashed changes
   padding: 1rem 2rem;
   position: absolute;
   left: 15px;
@@ -1963,7 +2091,11 @@ a:hover {
 
 .testimonial-ico i {
   font-size: 48px;
+<<<<<<< Updated upstream
   color: #cc9900;
+=======
+  color: gold;
+>>>>>>> Stashed changes
 }
 
 .testimonial-text {
@@ -2001,7 +2133,11 @@ a:hover {
 # Contact Section
 --------------------------------------------------------------*/
 .form-as #sendmessage {
+<<<<<<< Updated upstream
   color: #cc9900;
+=======
+  color: gold;
+>>>>>>> Stashed changes
   border: 1px solid #26a356;
   display: none;
   text-align: center;
@@ -2055,7 +2191,11 @@ a:hover {
 
 .form-as .form-control:focus {
   box-shadow: none;
+<<<<<<< Updated upstream
   border-color: #cc9900;
+=======
+  border-color: gold;
+>>>>>>> Stashed changes
 }
 
 .php-email-form .error-message {
@@ -2116,7 +2256,11 @@ a:hover {
 
 .php-email-form .form-control:focus {
   box-shadow: none;
+<<<<<<< Updated upstream
   border-color: #cc9900;
+=======
+  border-color: gold;
+>>>>>>> Stashed changes
 }
 
 @keyframes animate-loading {
@@ -2145,7 +2289,11 @@ a:hover {
 .section-footer .item-list-a i {
   font-size: 18px;
   padding-right: 4px;
+<<<<<<< Updated upstream
   color: #cc9900;
+=======
+  color: gold;
+>>>>>>> Stashed changes
 }
 
 .section-footer .widget-a .w-title-a {
