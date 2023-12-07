@@ -567,8 +567,8 @@ a:hover {
 
 .btn.btn-a {
   text-decoration: none;
-  background-color: #000000;
-  color: black;
+  background-color: #ffff;
+  color: #000000;
 }
 
 .btn.btn-a:hover {
@@ -582,7 +582,7 @@ a:hover {
 }
 
 .btn.btn-b:hover {
-  background-color: #000000;
+  background-color: #cc9900;
   color: black;
 }
 
@@ -593,7 +593,7 @@ a:hover {
 }
 
 .btn.btn-b-n:hover {
-  background-color: #26a356;
+  background-color: #cc9900;
   color: black;
 }
 
