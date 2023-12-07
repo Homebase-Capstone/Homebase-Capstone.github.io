@@ -19,28 +19,42 @@ print("test")
 conn.commit()
 conn.close()
 @app.route("/login", methods=["GET", "POST"])
-def login():
-    return render_template("Login.html")
 # def login():
-#     username = request.form["username"]
-#     password = request.form["password"]
+#     return render_template("Login.html")
+def login():
+  if request.method == "GET":
+    return render_template("Login.html")
+  else:
+    # Get username and password from the form
+    conn = sqlite3.connect("users.db")
+    c = conn.cursor()
+    username = request.form.get("username")
+    password = request.form.get("password")
+    c.execute("SELECT * FROM users WHERE username = ? AND password = ?", (username, password))
+    user = c.fetchone()
+    return "Login successful!" if user else "Login failed!"
 
-#     # Connect to database
-#     conn = sqlite3.connect("users.db")
-#     c = conn.cursor()
 
-#     # Check user credentials
-#     c.execute("SELECT * FROM users WHERE username = ?", (username,))
-#     user = c.fetchone()
+@app.route("/register", methods=["GET", "POST"])
+def signup():
+  if request.method == "GET":
+    return render_template("register.html")
+  else:
+    conn = sqlite3.connect("users.db")
+    c = conn.cursor()
+    username = request.form.get("username")
+    password = request.form.get("password")
+    c.execute("INSERT INTO users (username, password) VALUES (?, ?)", (username, password))
+    conn.commit()
+    conn.close()
+    return "User created successfully!"
 
-#     if not user or password != user[2]:
-#         error = "Invalid username or password."
-#         return render_template("Login.html", error=error)
+# Check user credentials
 
-#     # Login successful
-#     # ... (Implement session management)
-
-#     return "Welcome, " + username + "!"
+ # Login successful
+ # ... (Implement session management)
+ # Connect to database
+    
 
 if __name__ == "__main__":
     app.run(debug=True)

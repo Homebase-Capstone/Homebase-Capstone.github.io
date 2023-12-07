@@ -9,7 +9,7 @@ c = conn.cursor()
 # Create users table
 c.execute("""CREATE TABLE IF NOT EXISTS Houses (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  username TEXT NOT NULL UNIQUE,
-  password TEXT NOT NULL
+  type TEXT NOT NULL UNIQUE,
+  stories TEXT NOT NULL
 );""")
 app = Flask(__name__)
