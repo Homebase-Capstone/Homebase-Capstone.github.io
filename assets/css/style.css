@@ -1201,7 +1201,7 @@ a:hover {
 .card-box-a .img-b,
 .card-box-b .img-a,
 .card-box-b .img-b {
-  transition: 0.8s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 
 @media (min-width: 768px) {
@@ -1292,7 +1292,7 @@ a:hover {
 }
 
 .card-overlay-a-content {
-  transition: all 0.5s ease-in;
+  transition: all 0.1s ease-in;
   position: absolute;
   width: 100%;
   bottom: 0px;
@@ -1340,7 +1340,7 @@ a:hover {
 
 .card-body-a {
   z-index: 2;
-  transition: all 0.5s ease-in;
+  transition: all 0.1s ease-in;
   padding: 0rem 1rem 2rem 1rem;
 }
 
