@@ -18,6 +18,10 @@ app = Flask(__name__, template_folder='templates',static_folder='static')
 print("test")
 conn.commit()
 conn.close()
+@app.route("/", methods=["GET", "POST"])
+def home():
+  if request.method == "GET":
+    return render_template("index.html")
 @app.route("/login", methods=["GET", "POST"])
 # def login():
 #     return render_template("Login.html")
@@ -34,7 +38,6 @@ def login():
     user = c.fetchone()
     return "Login successful!" if user else "Login failed!"
 
-
 @app.route("/register", methods=["GET", "POST"])
 def signup():
   if request.method == "GET":
@@ -48,10 +51,7 @@ def signup():
     conn.commit()
     conn.close()
     return "User created successfully!"
-@app.route("/home", methods=["GET", "POST"])
-def home():
-  if request.method == "GET":
-    return render_template("index.html")
+
     
 
 if __name__ == "__main__":
