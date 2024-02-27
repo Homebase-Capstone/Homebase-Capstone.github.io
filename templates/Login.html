@@ -2,10 +2,10 @@
 <html>
 <head>
     <title>Login Page</title>
-    <link href="./homebase.png" rel="icon">
+    <link href="{{url_for('static', filename='/homebase.png')}}" rel="icon">
     <nav>
-    <link rel="stylesheet" href="./Login.css">
-    <a href="/index.html"><img id = "hbimg" src="./homebase.png" alt="" class="mainlog"></a>
+    <link rel="stylesheet" href= "{{url_for('static', filename='Login.css')}}">
+    <a href="./index.html"><img id = "hbimg" src="homebase.png" alt="" class="mainlog"></a>
     </nav><!-- End Header/Navbar -->
     
 </head>

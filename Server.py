@@ -12,7 +12,7 @@ c.execute("""CREATE TABLE IF NOT EXISTS users (
   username TEXT NOT NULL UNIQUE,
   password TEXT NOT NULL
 );""")
-app = Flask(__name__, template_folder='templates')
+app = Flask(__name__, template_folder='templates',static_folder='static')
 
 # Add some sample users (optional)
 print("test")
@@ -48,12 +48,10 @@ def signup():
     conn.commit()
     conn.close()
     return "User created successfully!"
-
-# Check user credentials
-
- # Login successful
- # ... (Implement session management)
- # Connect to database
+@app.route("/home", methods=["GET", "POST"])
+def home():
+  if request.method == "GET":
+    return render_template("index.html")
     
 
 if __name__ == "__main__":
