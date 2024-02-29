@@ -9,6 +9,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+#profilepic{
+  height: 15%;
+  width: 15%;
+  position: relative;
+  left: 150%;
+  
+}
 body {
   font-family: "Poppins", sans-serif;
   color: #555555;

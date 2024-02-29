@@ -36,7 +36,8 @@ def login():
     password = request.form.get("password")
     c.execute("SELECT * FROM users WHERE username = ? AND password = ?", (username, password))
     user = c.fetchone()
-    return "Login successful!" if user else "Login failed!"
+    print("test")
+    return render_template("index.html") if user else "Login failed!"
 
 @app.route("/register", methods=["GET", "POST"])
 def signup():

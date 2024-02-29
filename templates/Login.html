@@ -5,7 +5,7 @@
     <link href="{{url_for('static', filename='/homebase.png')}}" rel="icon">
     <nav>
     <link rel="stylesheet" href= "{{url_for('static', filename='Login.css')}}">
-    <a href="./index.html"><img id = "hbimg" src="homebase.png" alt="" class="mainlog"></a>
+    <a href="{{url_for('home')}}"><img id = "hbimg" src="{{url_for('static', filename='/homebase.png')}}" alt="" class="mainlog"></a>
     </nav><!-- End Header/Navbar -->
     
 </head>
@@ -17,5 +17,7 @@
         <br>
         <button type="submit">Login</button>
     </form>
+
     <p>Don't have an account? <a href="/register">Register</a></p>
+
 </html>
