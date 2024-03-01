@@ -52,7 +52,9 @@ def signup():
     conn.commit()
     conn.close()
     return "User created successfully!"
-
+@app.route("/Listings", methods=["GET"])
+def listings():
+  return render_template("houses.html")
     
 
 if __name__ == "__main__":
