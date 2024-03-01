@@ -26,19 +26,40 @@
         }
 
         .price {
-            color: #ff6600;
+            color: rgb(194, 143, 68);
             font-weight: bold;
+        }
+
+        .title {
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>House Listings</h1>
+    <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+        <div class="container">
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <a href="{{url_for('login')}}"><img src="{{url_for('static', filename='img/homebase.png')}}" alt="" class="mainlog"></a>
+          <a class="navbar-brand text-brand" href="{{url_for('home')}}">Home<span class="color-b">Base</span></a>
+          <a href="{{url_for('login')}}"><img id = "profilepic"src="{{url_for('static', filename='img/profile.png')}}"></a>
+    
+          <button type="button" class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
+            <i class="bi bi-search"></i>
+          </button>
+    
+        </div>
+      </nav>
 
     <div class="listing">
-        <h2>Beautiful Family Home</h2>
-        <p class="price">$300,000</p>
+        <img src = "171_Granger_Rd.webp" alt = ""/>
+        <h2>171 Granger Rd, Medina, OH 44256</h2>
+        <p class="price">$230,000</p>
         <p>Spacious 3-bedroom, 2-bathroom home with a large backyard. Close to schools and parks.</p>
         <a href="#">View Details</a>
     </div>
