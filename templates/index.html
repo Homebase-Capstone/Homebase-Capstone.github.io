@@ -124,7 +124,8 @@
             </div>
           </div>
           <div class="col-md-12">
-            <button type="submit" class="btn btn-b">Search Property</button>
+            <a href="{{url_for('listings')}}"><button type="submit" class="btn btn-b">Search Property</button></a>
+
           </div>
         </div>
       </form>
@@ -139,7 +140,7 @@
         <span></span>
         <span></span>
       </button>
-      <a href="{{url_for('login')}}"><img src="{{url_for('static', filename='img/homebase.png')}}" alt="" class="mainlog"></a>
+      <a href="{{url_for('home')}}"><img src="{{url_for('static', filename='img/homebase.png')}}" alt="" class="mainlog"></a>
       <a class="navbar-brand text-brand" href="{{url_for('home')}}">Home<span class="color-b">Base</span></a>
       <a href="{{url_for('login')}}"><img id = "profilepic"src="{{url_for('static', filename='img/profile.png')}}"></a>
 

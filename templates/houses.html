@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+    <head>
+    <link href="{{url_for('static', filename='css/listings.css')}}" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  
     <title>House Listings</title>
     <style>
         body {
@@ -45,7 +48,7 @@
             <span></span>
             <span></span>
           </button>
-          <a href="{{url_for('login')}}"><img src="{{url_for('static', filename='img/homebase.png')}}" alt="" class="mainlog"></a>
+          <a href="{{url_for('home')}}"><img src="{{url_for('static', filename='img/homebase.png')}}" alt="" class="mainlog"></a>
           <a class="navbar-brand text-brand" href="{{url_for('home')}}">Home<span class="color-b">Base</span></a>
           <a href="{{url_for('login')}}"><img id = "profilepic"src="{{url_for('static', filename='img/profile.png')}}"></a>
     
@@ -54,7 +57,6 @@
           </button>
     
         </div>
-      </nav>
 
     <div class="listing">
         <img src = "171_Granger_Rd.webp" alt = ""/>
