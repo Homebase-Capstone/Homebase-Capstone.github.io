@@ -37,3 +37,7 @@ img{
   .navbar-toggle-box i {
     line-height: 0;
   }
+
+  .listing {
+    display: grid;
+  }
