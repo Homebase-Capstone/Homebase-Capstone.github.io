@@ -11,20 +11,21 @@
 
   <!-- Favicons -->
   <!-- DO NOT TOUCH ANY CSS, JS OR IMG -->
-  <link href= "{{url_for('static', filename='/homebase.png')}}" rel="icon">
-  <link href="{{url_for('static', filename='/apple-touch-icon')}}" rel="apple-touch-icon">
+  <link href="./assets/img/homebase.png"  rel="icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="{{url_for('static', filename='vendor/animate.css/animate.min.css')}}" rel="stylesheet">
-  <link href="{{url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-  <link href="{{url_for('static', filename='vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
-  <link href="{{url_for('static', filename='vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
-
+  
+  <link href="./assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
   <!-- Template Main CSS File -->
-  <link href="{{url_for('static', filename='css/style.css')}}" rel="stylesheet">
+  <link href="./assets/css/style.css" rel="stylesheet">
+
 
   <!-- =======================================================
   * Template Name: EstateAgency
@@ -124,7 +125,7 @@
             </div>
           </div>
           <div class="col-md-12">
-            <a href="{{url_for('listings')}}"><button type="submit" class="btn btn-b">Search Property</button></a>
+            <a href='./houses.html'><button type="submit" class="btn btn-b">Search Property</button></a>
 
           </div>
         </div>
@@ -140,9 +141,9 @@
         <span></span>
         <span></span>
       </button>
-      <a href="{{url_for('home')}}"><img src="{{url_for('static', filename='img/homebase.png')}}" alt="" class="mainlog"></a>
-      <a class="navbar-brand text-brand" href="{{url_for('home')}}">Home<span class="color-b">Base</span></a>
-      <a href="{{url_for('login')}}"><img id = "profilepic"src="{{url_for('static', filename='img/profile.png')}}"></a>
+      <a href='./index.html'><img src="./assets/img/homebase.png" alt="" class="mainlog"></a>
+      <a class="navbar-brand text-brand" href="./index.html">Home<span class="color-b">Base</span></a>
+      <a href="./Login.html"><img id = "profilepic"src='./assets/img/profile.png'></a>
 
       <button type="button" class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
         <i class="bi bi-search"></i>
@@ -336,7 +337,7 @@
                 <h2 class="title-a">Latest Properties</h2>
               </div>
               <div class="title-link">
-                <a href="{{url_for('listings')}}">All Property
+                <a href="./houses.html">All Property
                   <span class="bi bi-chevron-right"></span>
                 </a>
               </div>
@@ -350,13 +351,13 @@
             <div class="carousel-item-b swiper-slide">
               <div class="card-box-a card-shadow">
                 <div class="img-box-a">
-                  <img src="{{url_for('static', filename='img/home1.png')}}" alt="" class="img-a img-fluid">
+                  <img src='./assets/img/home1.png' alt="" class="img-a img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-overlay-a-content">
                     <div class="card-header-a">
                       <h2 class="card-title-a">
-                        <a href="{{url_for('home')}}">4114 Shenandoah Pkwy
+                        <a href="tmep">4114 Shenandoah Pkwy
                           <br /> Brunswick, OH 44212</a> <!--https://www.zillow.com/homedetails/4114-Shenandoah-Pkwy-Brunswick-OH-44212/34877831_zpid/-->
                       </h2>
                     </div>
@@ -364,7 +365,7 @@
                       <div class="price-box d-flex">
                         <span class="price-a">rent | $ 2,394</span>
                       </div>
-                      <a href="{{url_for('home')}}" class="link-a">Click here to view
+                      <a href="tem[p]" class="link-a">Click here to view
                         <span class="bi bi-chevron-right"></span>
                       </a>
                     </div>
@@ -398,13 +399,13 @@
             <div class="carousel-item-b swiper-slide">
               <div class="card-box-a card-shadow">
                 <div class="img-box-a">
-                  <img src="{{url_for('static', filename='img/home2.png')}}" alt="" class="img-a img-fluid">
+                  <img src='./assets/img/home2.png' alt="" class="img-a img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-overlay-a-content">
                     <div class="card-header-a">
                       <h2 class="card-title-a">
-                        <a href="{{url_for('home')}}">1492 Yale Dr
+                        <a href="temp">1492 Yale Dr
                           <br /> Brunswick, OH 44212</a> <!--https://www.zillow.com/homedetails/1492-Yale-Dr-Brunswick-OH-44212/34878965_zpid/-->
                       </h2>
                     </div>
@@ -412,7 +413,7 @@
                       <div class="price-box d-flex">
                         <span class="price-a">rent | $ 1,362</span>
                       </div>
-                      <a href="{{url_for('home')}}" class="link-a">Click here to view
+                      <a href="tmep" class="link-a">Click here to view
                         <span class="bi bi-chevron-right"></span>
                       </a>
                     </div>
@@ -446,13 +447,13 @@
             <div class="carousel-item-b swiper-slide">
               <div class="card-box-a card-shadow">
                 <div class="img-box-a">
-                  <img src="{{url_for('static', filename='img/home3.png')}}" alt="" class="img-a img-fluid">
+                  <img src='./assets/img/home3.png' alt="" class="img-a img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-overlay-a-content">
                     <div class="card-header-a">
                       <h2 class="card-title-a">
-                        <a href="{{url_for('home')}}">4151 Roanoke Dr
+                        <a href="tmpe">4151 Roanoke Dr
                           <br /> Brunswick, OH 44212</a> 
                       </h2>
                     </div>
@@ -460,7 +461,7 @@
                       <div class="price-box d-flex">
                         <span class="price-a">rent | $ 2,556</span>
                       </div>
-                      <a href="{{url_for('home')}}" class="link-a">Click here to view
+                      <a href="tmep" class="link-a">Click here to view
                         <span class="bi bi-chevron-right"></span>
                       </a>
                     </div>
@@ -550,12 +551,14 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="{{url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-  <script src="{{url_for('static', filename='vendor/swiper/swiper-bundle.min.js')}}"></script>
-  <script src="{{url_for('static', filename='vendor/php-email-form/validate.js')}}"></script>
+  <!-- Vendor JS Files -->
+  <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
 
+  
   <!-- Template Main JS File -->
-  <script src="{{url_for('static', filename='js/main.js')}}"></script>
+  <script src="./assets/js/main.js"></script>
+
 
 </body>
 
