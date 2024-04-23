@@ -21,13 +21,13 @@ body {
   color: #555555;
 }
 #Swipeimg1{
-  background-image: url("/static/img/slide-1.jpg");
+  background-image: url("./../img/slide-1.jpg");
 }
 #Swipeimg2{
-  background-image: url("/static/img/slide-2.jpg");
+  background-image: url("./../img/slide-2.jpg");
 }
 #Swipeimg3{
-  background-image: url("/static/img/slide-3.jpg");
+  background-image: url("./../img/slide-3.jpg");
 }
 h1,
 h2,
