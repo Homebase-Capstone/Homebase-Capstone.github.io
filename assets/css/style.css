@@ -9,11 +9,21 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.caraimg{
+  /* make all the images in the carasoul the same size */
+  height: 50vh;
+  width: 50vw;
+  
+
+  
+
+
+}
 #profilepic{
   height: 15%;
   width: 15%;
   position: relative;
-  left: 150%;
+  left: 175%;
   
 }
 body {
