@@ -19,7 +19,7 @@ cors = CORS(app)
 
 
 
-
+@app.route("/login", methods=[ "POST"])
 def login():
   if request.method == "GET":
     return render_template("Login.html")
@@ -34,8 +34,7 @@ def login():
     print("test")
     return render_template("index.html") if user else "Login failed!"
 
-
-
+@app.route("/signup", methods=[ "POST"])
 def signup():
   if request.method == "GET":
     return render_template("register.html")
