@@ -48,3 +48,5 @@ def signup():
     conn.commit()
     conn.close()
     return "User created successfully!"
+  
+app.run(port=5000)
